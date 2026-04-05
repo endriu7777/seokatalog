@@ -63,3 +63,5 @@ CHANGES COMPARED TO THE ORIGINAL:
   
   ✓ New design: light blue + transparency + shades
     of blue, gray, white, and sand
+
+CONTACT: kontakt@katalogfirm.c0.pl
