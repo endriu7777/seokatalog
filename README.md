@@ -45,14 +45,20 @@ INSTALLATION:
 CHANGES COMPARED TO THE ORIGINAL:
   ✓ SQL Injection protection — all queries via PDO
     with prepared statements
+	
   ✓ XSS protection — htmlspecialchars() on all output data
+  
   ✓ CSRF protection — tokens on all POST forms
+  
   ✓ PHP 8.4 — all deprecated functions removed:
     mysql_*   → PDO
     eregi()   → preg_match()
     each()    → foreach
     eregi_replace() → preg_replace()
+	
   ✓ UTF-8 encoding (instead of ISO-8859-2)
+  
   ✓ All images as PNG (no .gif, no .jpg)
+  
   ✓ New design: light blue + transparency + shades
     of blue, gray, white, and sand
