@@ -4,7 +4,7 @@ DEMO: http://katalog.buz.cba.pl
 
   =====================================
   Zamkniety Mini v1.0 — Installation Instructions
-  =====================================
+
 
 REQUIREMENTS:
   - PHP 8.4+
