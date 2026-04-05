@@ -1,3 +1,4 @@
 # portfolio
-MOJE PORTFOLIO
-Tu będzie informacja na temat seo katalogu
+SEO KATALOG - ZAMKNIĘTY MINI.
+DEMO: http://katalog.buz.cba.pl
+
