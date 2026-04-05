@@ -43,6 +43,7 @@ INSTALLATION:
    - Set permissions 755 for rob_pl.db and rob.db files — collect search engine crawler visit data
 
 CHANGES COMPARED TO THE ORIGINAL:
+
   ✓ SQL Injection protection — all queries via PDO
     with prepared statements
 	
