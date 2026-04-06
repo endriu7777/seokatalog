@@ -42,6 +42,8 @@ INSTALLATION:
    - Set permissions 755 for [lp_cache] directory — collects link popularity sessions
    - Set permissions 755 for rob_pl.db and rob.db files — collect search engine crawler visit data
 
+   - If you want to add statistics on the left side of the catalog under the search engine, add this code: <php>statPL.php</php> or <php>statENG.php</php> in the block: blok_wyszukiwarka, below the code: <php>formularz.php</php>
+
 CHANGES COMPARED TO THE ORIGINAL:
 
   ✓ SQL Injection protection — all queries via PDO
