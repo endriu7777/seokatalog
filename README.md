@@ -44,6 +44,8 @@ INSTALLATION:
 
    - If you want to add statistics on the left side of the catalog under the search engine, add this code: <php>statPL.php</php> or <php>statENG.php</php> in the block: blok_wyszukiwarka, below the code: <php>formularz.php</php>
 
+   How to perform the update: Overwrite all files via FTP except for one file: zamkniety_inc/zamkniety_install.php
+
 CHANGES COMPARED TO THE ORIGINAL:
 
   ✓ SQL Injection protection — all queries via PDO
