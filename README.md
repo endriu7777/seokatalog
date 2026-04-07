@@ -61,3 +61,6 @@ CHANGES COMPARED TO THE ORIGINAL:
 
 
 CONTACT: kontakt@katalog.buz.cba.pl
+**************************************************************************
+Keywords:
+SEO directory,SEO tools,link building,SEO optimization,online business directory,website database,SEO for businesses,list of websites,web directory,content optimization,company database,list of companies,enterprise directory,company register,services directory,local business,industry directory,company search,local business directory,company listing,B2B business directory
