@@ -4,16 +4,15 @@ DEMO: http://katalog.buz.cba.pl
 
   ===>  Zamkniety Mini v1.0 — Installation Instructions <==
 
-
 REQUIREMENTS:
   - PHP 8.4+
   - MySQL 5.7+ or MariaDB 10.3+
   - PHP extensions: pdo, pdo_mysql, gd, mbstring
 
 DIRECTORY STRUCTURE:
-  zamkniety_admin/   — administration panel
+  zamkniety_admin/   — admin panel
   zamkniety_disp/    — display files (front-end)
-  zamkniety_img/     — PNG images (no GIF, no JPG)
+  zamkniety_img/     — PNG images 
   zamkniety_inc/     — configuration files and installer
   zamkniety_tpl/     — templates (fonts)
   lp_cache/          — cache (requires 777 permissions)
@@ -22,7 +21,7 @@ INSTALLATION:
   1. Upload the entire package contents to the server
   2. Set permissions 777 for the lp_cache/ directory
   3. Set permissions 777 for the zamkniety_inc/ directory
-     (only for the duration of the installation)
+     (only for the installation time)
   4. Open in your browser:
         http://yourdomain.com/zamkniety_inc/zamkniety_install.php
   5. Fill in the installation form:
@@ -32,40 +31,33 @@ INSTALLATION:
   6. Click "Install"
   7. After installation DELETE the file:
         zamkniety_inc/zamkniety_install.php
-  8. Change permissions for zamkniety_inc/ back to 755
+  8. Change permissions of zamkniety_inc/ back to 755
   9. Paste the contents of the "htaccess" file into ".htaccess"
      (rename htaccess to .htaccess)
- 10. Administration panel:
+ 10. Admin panel:
         http://yourdomain.com/zamkniety_admin/
 	 
-  ADDITIONAL:
-   - Set permissions 755 for [lp_cache] directory — collects link popularity sessions
-   - Set permissions 755 for rob_pl.db and rob.db files — collect search engine crawler visit data
-
-   - If you want to add statistics on the left side of the catalog under the search engine, add this code: <php>statPL.php</php> or <php>statENG.php</php> in the block: blok_wyszukiwarka, below the code: <php>formularz.php</php>
-
-   How to perform the update: Overwrite all files via FTP except for one file: zamkniety_inc/zamkniety_install.php
+	 ADDITIONAL:
+	- Set permissions 755 for the [lp_cache] directory — collects link popularity sessions
+    - Set permissions 755 for rob_pl.db and rob.db files — collect search engine bot visit data
+	
+	If you don't know the path to your domain (when installing the script), open:
+    yourdomain.com/sciezka.php
 
 CHANGES COMPARED TO THE ORIGINAL:
-
   ✓ SQL Injection protection — all queries via PDO
     with prepared statements
-	
   ✓ XSS protection — htmlspecialchars() on all output data
-  
   ✓ CSRF protection — tokens on all POST forms
-  
-  ✓ PHP 8.4 — all deprecated functions removed:
+  ✓ PHP 8.4 — removed all deprecated functions:
     mysql_*   → PDO
     eregi()   → preg_match()
     each()    → foreach
     eregi_replace() → preg_replace()
-	
   ✓ UTF-8 encoding (instead of ISO-8859-2)
-  
   ✓ All images as PNG (no .gif, no .jpg)
-  
   ✓ New design: light blue + transparency + shades
     of blue, gray, white, and sand
+
 
 CONTACT: kontakt@katalog.buz.cba.pl
