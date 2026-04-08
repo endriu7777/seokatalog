@@ -59,7 +59,8 @@ CHANGES COMPARED TO THE ORIGINAL:
   ✓ All images as PNG (no .gif, no .jpg)
   ✓ New design: light blue + transparency + shades
     of blue, gray, white, and sand
-
+	
+Update: if you want to upgrade to a newer version, overwrite all files, run the installer, click on Update, and delete the installer file (follow the instructions).
 
 CONTACT: kontakt@katalog.buz.cba.pl
 **************************************************************************
