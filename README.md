@@ -1,3 +1,5 @@
+![Zamknięty panel](https://i.ibb.co/GQnsp92Y/zamkniety.png)
+
 # ZAMKNIĘTY MINI
 SEO KATALOG - ZAMKNIĘTY MINI.
 DEMO: http://katalog.buz.cba.pl
