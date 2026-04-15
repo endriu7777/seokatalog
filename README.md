@@ -2,7 +2,7 @@
 
 # ZAMKNIĘTY MINI
 SEO KATALOG - ZAMKNIĘTY MINI.
-DEMO: http://katalog.buz.cba.pl
+DEMO: [http://katalog.buz.cba.pl](http://demo.ma7.eu)
 
   ===>  Zamkniety Mini v1.2 — Installation Instructions <==
   Version PL and ENG
