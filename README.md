@@ -1,6 +1,7 @@
-![Zamknięty panel](https://i.ibb.co/GQnsp92Y/zamkniety.png)
 
-# ZAMKNIĘTY MINI
+
+# ZAMKNIĘTY MINI<img width="1408" height="595" alt="zamkniety mini 1 2" src="https://github.com/user-attachments/assets/c1a44861-6524-4028-9073-481509189c16" />
+
 SEO KATALOG - ZAMKNIĘTY MINI.
 DEMO: http://demo.ma7.eu
 
