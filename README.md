@@ -1,6 +1,6 @@
 
 
-# ZAMKNIĘTY MINI<img width="1408" height="595" alt="zamkniety mini 1 2" src="https://github.com/user-attachments/assets/c1a44861-6524-4028-9073-481509189c16" />
+# ZAMKNIĘTY MINI - SEO WEB CATALOG + PAYPAL + STRIPE <img width="1408" height="595" alt="zamkniety mini 1 2" src="https://github.com/user-attachments/assets/c1a44861-6524-4028-9073-481509189c16" />
 
 SEO KATALOG - ZAMKNIĘTY MINI.
 DEMO: http://demo.ma7.eu
